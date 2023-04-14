@@ -1,5 +1,5 @@
 {
-    "name": "singularit/php-codesniffer-base-config",
+    "name": "singular-it/php-codesniffer-base-config",
     "type": "library",
     "description": "Base configuration for PHP Codesniffer",
     "authors": [
