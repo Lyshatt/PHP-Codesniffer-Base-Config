@@ -3,5 +3,13 @@
     <description>The singularIT Coding Standard for PHP</description>
 
     <!-- Include the whole PSR12 standard -->
-    <rule ref="PSR12"></rule>
+    <rule ref="PSR12"/>
+
+    <!-- Include some rules for function comments -->
+    <rule ref="Squiz.Commenting.FunctionComment.Missing"/>
+    <rule ref="Squiz.Commenting.FunctionComment.MissingParamTag"/>
+    <rule ref="Squiz.Commenting.FunctionComment.MissingParamName"/>
+    <rule ref="Squiz.Commenting.FunctionComment.ParamNameNoMatch"/>
+    <rule ref="Squiz.Commenting.FunctionComment.IncorrectTypeHint"/>
+    <rule ref="Squiz.Commenting.FunctionComment.MissingReturn"/>
 </ruleset>
