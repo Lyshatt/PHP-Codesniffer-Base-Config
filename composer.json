@@ -11,6 +11,8 @@
     "require": {},
 
     "autoload": {
-        "files": ["/phpcs.xml"]
+        "psr-4": {
+            "Vendor\\Package\\": "src/"
+        }
     }
 }
