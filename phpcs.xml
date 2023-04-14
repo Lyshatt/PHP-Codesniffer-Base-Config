@@ -1,0 +1,7 @@
+<?xml version="1.0"?>
+<ruleset>
+    <description>The singularIT Coding Standard for PHP</description>
+
+    <!-- Include the whole PSR12 standard -->
+    <rule ref="PSR12"></rule>
+</ruleset>

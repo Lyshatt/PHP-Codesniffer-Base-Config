@@ -1,0 +1,16 @@
+{
+    "name": "singularit/php-codesniffer-base-config",
+    "type": "library",
+    "description": "Base configuration for PHP Codesniffer",
+    "authors": [
+        {
+            "name": "Thomas Meichelböck",
+            "email": "thomas.meichelboeck@singular-it.de"
+        }
+    ],
+    "require": {},
+
+    "autoload": {
+        "files": ["/phpcs.xml"]
+    }
+}
