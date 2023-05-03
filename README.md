@@ -34,4 +34,8 @@
    ```
    Alternatively, for php versions smaller than 8, include ``vendor/singular-it/php-codesniffer-base-config/src/phpcs-before-php8.xml`` instead
 
-=> You can now run phpcs via ``vendor/bin/phpcs path/to/check`` and are able to extend the phpcs.xml file to add project-specific rules.
+=> You can now run phpcs via ``vendor/bin/phpcs path/to/check`` and are able to extend the phpcs.xml file to add project-specific rules or use the phpcbf command to fix smells automatically.
+
+=> Documentation: https://github.com/squizlabs/PHP_CodeSniffer/wiki
+
+=> How to include php_codesniffer into PHPStorm: https://www.jetbrains.com/help/phpstorm/using-php-code-sniffer.html
