@@ -6,10 +6,21 @@
     <rule ref="PSR12"/>
 
     <!-- Include some rules for function typing -->
-    <rule ref="Generic.Function.MissingParamTypeHint"/>
-    <rule ref="Generic.Function.IncorrectParamTypeHint"/>
-    <rule ref="Generic.Function.MissingReturnTypeHint"/>
-    <rule ref="Generic.Function.IncorrectReturnTypeHint"/>
+    <rule ref="SlevomatCodingStandard.TypeHints.ParameterTypeHint.MissingAnyTypeHint">
+        <properties>
+            <property name="enableScalarTypeHints" value="true"/>
+            <property name="enableMixedTypeHint" value="true"/>
+            <property name="enableUnionTypeHint" value="true"/>
+        </properties>
+    </rule>
+    <rule ref="SlevomatCodingStandard.TypeHints.ReturnTypeHint.MissingAnyTypeHint">
+        <properties>
+            <property name="enableVoidTypeHint" value="true"/>
+            <property name="enableScalarTypeHints" value="true"/>
+            <property name="enableMixedTypeHint" value="true"/>
+            <property name="enableUnionTypeHint" value="true"/>
+        </properties>
+    </rule>
 
     <!-- Only one argument per line in multi-line function calls -->
     <rule ref="PEAR.Functions.FunctionCallSignature">
