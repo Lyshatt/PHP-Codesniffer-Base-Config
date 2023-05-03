@@ -5,11 +5,13 @@
     <!-- Include the whole PSR12 standard -->
     <rule ref="PSR12"/>
 
-    <!-- Include some rules for function typing -->
-    <rule ref="Generic.Function.MissingParamTypeHint"/>
-    <rule ref="Generic.Function.IncorrectParamTypeHint"/>
-    <rule ref="Generic.Function.MissingReturnTypeHint"/>
-    <rule ref="Generic.Function.IncorrectReturnTypeHint"/>
+    <!-- Include some rules for function comments -->
+    <rule ref="Squiz.Commenting.FunctionComment.Missing"/>
+    <rule ref="Squiz.Commenting.FunctionComment.MissingParamTag"/>
+    <rule ref="Squiz.Commenting.FunctionComment.MissingParamName"/>
+    <rule ref="Squiz.Commenting.FunctionComment.ParamNameNoMatch"/>
+    <rule ref="Squiz.Commenting.FunctionComment.IncorrectTypeHint"/>
+    <rule ref="Squiz.Commenting.FunctionComment.MissingReturn"/>
 
     <!-- Only one argument per line in multi-line function calls -->
     <rule ref="PEAR.Functions.FunctionCallSignature">
