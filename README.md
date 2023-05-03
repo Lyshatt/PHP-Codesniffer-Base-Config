@@ -38,4 +38,4 @@
 
 => Documentation: https://github.com/squizlabs/PHP_CodeSniffer/wiki
 
-=> How to include php_codesniffer into PHPStorm: https://www.jetbrains.com/help/phpstorm/using-php-code-sniffer.html
+=> How to include PHP Codesniffer into PhpStorm: https://www.jetbrains.com/help/phpstorm/using-php-code-sniffer.html
