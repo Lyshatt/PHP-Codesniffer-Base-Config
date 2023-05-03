@@ -8,7 +8,7 @@
         "repositories": [
            {
               "type": "vcs",
-              "url": "https://github.com/Lyshatt/php-codesniffer-base-config.git"
+              "url": "https://github.com/singularit-de/php-codesniffer-base-config.git"
            }
        ]
       ```
@@ -32,4 +32,6 @@
         <!-- Add project-specific rules below -->
     </ruleset>
    ```
+   Alternatively, for php versions smaller than 8, include ``vendor/singular-it/php-codesniffer-base-config/src/phpcs-before-php8.xml`` instead
+
 => You can now run phpcs via ``vendor/bin/phpcs path/to/check`` and are able to extend the phpcs.xml file to add project-specific rules.
