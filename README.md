@@ -12,12 +12,11 @@
            }
        ]
       ```
-   2. Add necessary packages 
+   2. Add the package
       ```json
       "require": {
          ...
          "singular-it/php-codesniffer-base-config": "dev-master"
-         "squizlabs/php_codesniffer": "^3.7"
          ...
       },
       ```
