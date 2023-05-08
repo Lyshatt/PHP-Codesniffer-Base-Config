@@ -48,9 +48,9 @@ This Project basically provides a set of predefined php coding standard rules th
 - As PHP Codesniffer also includes the "PHP Code Beautifier and Fixer", you can use ``vendor/bin/phpcbf path/to/fix`` to automatically fix some smells.
 
 ## PhpStorm Setup:
-How to include PHP Codesniffer and PHP Code Beautifier and Fixer into PhpStorm. Find the official description here: https://www.jetbrains.com/help/phpstorm/using-php-code-sniffer.html . Basically:
-- In the Settings under PHP > Quality Tools > PHP_Codesniffer click on the three dots, after the "Configuration"-field which opens a separate view. Here you will find the "PHP_CodeSniffer path" field and the "Path to phpcbf" field. The path to phpcs should be set to something like this `C:\...\vendor\bin\phpcs.bat` and the path to phpcbf to something like this `C:\...\vendor\bin\phpcbf.bat`.
-- Go back to PHP > Quality Tools > PHP_Codesniffer and choose "custom" as coding standard, which causes an input field to appear. If the option "custom" is not available, try closing and re-opening the settings. In this input field enter the path to your own phpcs.cml file in your project's root directory.
+Find the official description here: https://www.jetbrains.com/help/phpstorm/using-php-code-sniffer.html . Basically:
+- In the Settings under PHP > Quality Tools > PHP_Codesniffer click on the three dots after the "Configuration"-field, which opens a separate view. Here you will find the "PHP_CodeSniffer path" field and the "Path to phpcbf" field. The path to phpcs should be set to something like this `C:\...\vendor\bin\phpcs.bat` and the path to phpcbf to something like this `C:\...\vendor\bin\phpcbf.bat`.
+- Go back to PHP > Quality Tools > PHP_Codesniffer and choose "custom" as coding standard, which causes an input field to appear. If the option "custom" is not available, try closing and re-opening the settings. In this input field enter the path to your own phpcs.xml file in your project's root directory.
 - Go to PHP > Quality Tools > External Formatters and code PHP Code Beautifier and Fixer.
 
-=> You should now bhe able to see IDE highlighting for code smells and hovering over them should give you the option to fix them, if they are automatically fixable.
+=> You should now be able to see IDE highlighting for code smells and hovering should give you the option to fix them, if they are automatically fixable.
